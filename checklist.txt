@@ -1,0 +1,9 @@
+General information
+Name of the section 
+List of checks
+Type of verification
+Test data
+The expected behavior of the system
+Information about the test environment
+Check result
+Bug number
