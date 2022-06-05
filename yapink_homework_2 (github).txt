@@ -1,0 +1,95 @@
+https://github.com/Ya-pink
+
+4.Создать внешний репозиторий c названием JSON/XML/TXT.
+Create repository in the Github
+
+5. Клонировать репозиторий JSON на локальный компьютер.
+Открываем терминал
+cd "название папки где у меня вся домашка"
+git clone http (ссылка на репозиторий)
+
+6. Внутри локального JSON/XML/TXT создать файл “new.json/xml/txt”.
+Touch file.json/xml/txt.
+
+7. Добавить файл под гит.
+git add file.json/xml/txt.
+
+8. Закоммитить файл.
+git commit -m "message"
+
+9. Отправить файл на внешний GitHub репозиторий.
+git push
+
+10. Отредактировать содержание файла “new.json/xml/txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+
+vim file.json/xml/txt.
+insert
+
+Для Json
+{
+"Name": "Yanina",
+"Age":"25",
+"Pets": "two cats",
+"Salary": "10 000$ per month"
+}
+
+Для XML
+<?xml version="1.0"?>
+<ME>
+  <NAME>Yana</NAME>
+  <AGE>25</AGE>
+  <PETS>two cats</PETS>
+  <SALARY>10000$ per month</SALARY>
+</ME> 
+
+Для TXT
+Name - Yanina,
+Age - 25
+I have two cats
+10 000$ per month
+
+esc
+:WQ
+
+11. Отправить изменения на внешний репозиторий.
+add file.json/xml/txt
+git commit - m "message"
+git push
+
+12. Создать файл preferences.json/xml/txt
+touch preferences.json/xml/txt
+
+13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON/XML/TXT.
+
+Json - https://github.com/Ya-pink/JSON/blob/main/preferences.json
+XML - https://github.com/Ya-pink/XML/blob/main/preferences.xml
+Txt - https://github.com/Ya-pink/TXT/blob/main/preferences.txt
+
+ 14. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON/XML/TXT
+
+JSON - https://github.com/Ya-pink/JSON/blob/main/skills.json
+XML - https://github.com/Ya-pink/XML/blob/main/skills.xml
+TXT - https://github.com/Ya-pink/TXT/blob/main/new.txt
+
+
+15. Отправить сразу 2 файла на внешний репозиторий.
+
+git add preferences.json/xml/txt skills.json/xml/txt
+git commit -m "message"
+git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.
++
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
++
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON/XML/TXT.
+
+JSON - https://github.com/Ya-pink/JSON/blob/main/bug_report.json
+XML - https://github.com/Ya-pink/XML/blob/main/Bug_report.xml
+TXT - https://github.com/Ya-pink/TXT/blob/main/Bug_report.txt
+
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
++
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+git pull
+
